@@ -1,0 +1,5 @@
+name: Test
+version: @version@
+main: com.github.huda0209.test.Test
+api-version: 1.15
+authors: [ huda0209 ]
