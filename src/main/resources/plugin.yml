@@ -3,3 +3,8 @@ version: @version@
 main: com.github.huda0209.test.Test
 api-version: 1.15
 authors: [ huda0209 ]
+commands:
+  test:
+    description: test command.
+    usage: /<commnad>
+    default: true
