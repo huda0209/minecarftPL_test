@@ -9,7 +9,7 @@ public class Joinevent implements Listener {
     @EventHandler
     public void JoinPlayer (PlayerLoginEvent e){
 
-    e.disallow(PlayerLoginEvent.Result.KICK_OTHER,"&cあなたはこののサーバーに入ってはいけません\n\n&rby test server");
+    e.disallow(PlayerLoginEvent.Result.KICK_OTHER,"あなたはこののサーバーに入ってはいけません\nby test server");
 
     }
 }
